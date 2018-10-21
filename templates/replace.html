@@ -1,0 +1,17 @@
+<h1>COUNT</h1>
+<br/>
+{{replacetext}}
+<br/>
+<h1>There are {{count}} words in your text</h1>
+<br/>
+<h1>There are {{count1}} is in your text</h1>
+<h1>There is average of {{avg}}</h1>
+<form action="{% url 'count'%}">
+    <textarea cols="10" rows="10" name="rep1">
+    </textarea>
+    <h1>with</h1>
+    <textarea cols="10" rows="10" name="repl2">
+    </textarea>
+    <br/>
+    <input type="Submit" value="Replace"/>
+</form>
